@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "HTY360Player/HTYGLKVC.{h,m}", "HTY360Player/GLProgram.{h,m}",  "HTY360Player/HTY360PlayerVC.{h,m}"
+  s.source_files  = "HTY360Player/HTYGLKVC.{h,m}", "HTY360Player/GLProgram.{h,m}",  "HTY360Player/HTY360PlayerVC.{h,m}", "HTY360Player/Shader.{fsh,vsh}",
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
